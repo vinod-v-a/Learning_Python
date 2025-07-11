@@ -123,4 +123,5 @@ print(pi)
 def Outer():
     pi = "ENCLOSED SPACE"
     def inner ():
+        print("hello")
 
