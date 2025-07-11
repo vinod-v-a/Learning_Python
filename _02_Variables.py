@@ -119,9 +119,14 @@ from math import pi
 
 print(pi)
 pi = "GLOBAL SCOPE"
-print(pi)
-def Outer():
+# print(pi)
+def outer():
     pi = "ENCLOSED SPACE"
+    # print(pi)
     def inner ():
-        print("hello")
+        # pi = "LOCAL SPACE"
+        print(pi)
+    return inner()
+outer()
+
 
