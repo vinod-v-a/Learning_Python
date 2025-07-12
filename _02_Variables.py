@@ -95,6 +95,7 @@
 # x, y, z = "Rahul"
 # print(x, y, z) #ValueError: too many values to unpack (expected 3)
 
+
 # a, b, c = [10, 20, 30]
 # print(a, b, c)
 
@@ -115,19 +116,27 @@
 
 #   "LEGB"
 
-from math import pi
-
-print(pi)
-pi = "GLOBAL SCOPE"
+# from math import pi
+#
 # print(pi)
-def outer():
-    pi = "ENCLOSED SPACE"
-    # print(pi)
-    def inner ():
-        # pi = "LOCAL SPACE"
-        print(pi)
-    return inner()
-outer()
-print("vinod")
+# pi = "GLOBAL SCOPE"
+# # print(pi)
+# def outer():
+#     pi = "ENCLOSED SPACE"
+#     # print(pi)
+#     def inner ():
+#         # pi = "LOCAL SPACE"
+#         print(pi)
+#     return inner()
+# outer()
 
-print("Hello")
+# x = 10
+# print(x)
+# x = 20
+# print(x)
+# del x
+# print(x)
+
+
+
+
