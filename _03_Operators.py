@@ -15,7 +15,7 @@
 
 # a = 10
 # b = "Python"
-# print(a+b) #TypeError: unsupported operand type(s) for +: 'int' and 'str'
+# print(a+b)  # TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 # a = "Python"
 # b = "Hello "
@@ -36,7 +36,7 @@
 # print(a + b)  # Concatenation of tuple
 
 # a = {1, 3, 4}
-# b = {7, 8, 9}
+# b = {4, 8, 9}
 # print(a + b)  # TypeError: unsupported operand type(s) for +: 'set' and 'set'
 
 
@@ -64,7 +64,7 @@
 # n2 = "Python"
 # res = n1 > n2
 # print(res)
-
+#
 # n1 = [1, 2, 3]
 # n2 = [10, 20, 30]
 # res = n1 < n2
@@ -83,7 +83,7 @@
 
 
 # n1 = {"a": 1, "b": 2, "c": 3}
-# n2 = {"x": 10, "y": 20, "z": 30}
+# n2 = {"a": 10, "y": 20, "z": 30}
 # res = n1 > n2
 # print(res)     # TypeError: '>' not supported between instances of 'dict' and 'dict'
 
@@ -154,11 +154,56 @@ F       F           F               F
 # else:
 #     print("data is present")
 
-# a = 1
-# b = 2
-# c = a
-# print(a == b)    # check the value
-# print(a is b)   # check the identity
-# print(a is c)
+
+# Membership Operators ("in" / "not in")
+# l1 = [10, 20, 30]
+# print(10 in l1)  # True
+# l2 = [10, ["python", "Welcome"], {"a", "b"}]
+# print("python" in l2)    # False
+# print("a" not in l2)   # True
+
+
+# Assignment Operators
+# x = 10
+# x += 5
+# x -= 5
+# x *= 5
+# x /= 5
+# x //= 5
+# x %= 5
+# x **= 5
+# print(x)
+
+
+# Identity Operators
+
+# immutable
+# x = 10
+# y = 10
+# print(x == y)   # True
+# print(x is y)   # True
+# print(x is not y)   # False
+
+# mutable
+# x = [20, 30]
+# y = [20, 30]
+# print(x == y)  # True => check only values
+# print(x is y)  # False => check the id of the object
+# print(x is not y)   # True
+
+# Bitwise Operators
+p = 25
+q = 10
+print("Binary Value of p: ", bin(p))
+print("Binary Value of q: ", bin(q))
+# z = p & q
+# z = p | q
+# z = p ^ q
+z = ~q
+print("Binary Value of z: ", bin(z))
+print("Value of z: ", z)
+
+
+
 
 
