@@ -1,0 +1,10 @@
+DEBUG :: 2025-08-29 18:58:37,253 :: 76 :: from DEBUG :: _12_Debugging.py
+INFO :: 2025-08-29 18:58:37,253 :: 77 :: from INFO :: _12_Debugging.py
+WARNING :: 2025-08-29 18:58:37,254 :: 78 :: from WARNING :: _12_Debugging.py
+ERROR :: 2025-08-29 18:58:37,254 :: 79 :: from ERROR :: _12_Debugging.py
+CRITICAL :: 2025-08-29 18:58:37,254 :: 80 :: from CRITICAL :: _12_Debugging.py
+DEBUG :: 2025-08-29 18:59:32,282 :: 76 :: from DEBUG :: _12_Debugging.py
+INFO :: 2025-08-29 18:59:32,282 :: 77 :: from INFO :: _12_Debugging.py
+WARNING :: 2025-08-29 18:59:32,282 :: 78 :: from WARNING :: _12_Debugging.py
+ERROR :: 2025-08-29 18:59:32,283 :: 79 :: from ERROR :: _12_Debugging.py
+CRITICAL :: 2025-08-29 18:59:32,283 :: 80 :: from CRITICAL :: _12_Debugging.py
